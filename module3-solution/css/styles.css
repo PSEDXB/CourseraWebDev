@@ -1,0 +1,64 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #f7edc0;
+	color: #020202;
+	font-family: 'Acme', sans-serif;
+}
+
+#header-nav {
+	background-color: #686555;
+	color: #16ba19;
+	border-radius: 0;
+	border: 0;
+}
+
+button {
+	height: 50px;
+	width: 50px;
+	border-radius: 10px;
+}
+
+#OurMenu {
+	padding-top: 3%;
+	padding-bottom: 3%;
+	text-decoration: underline;
+}
+
+}
+.menuItem {
+	background-color: #9eedd5;
+	border-radius: 10px;
+	border: 1px black solid;
+}
+
+h3 {
+	padding-top: 7%;
+	text-decoration: underline;
+}
+
+@media only screen and (min-width: 575px) {
+	button {
+		display: none;
+	}
+	#Chicken {
+		margin-left: 5%;
+	}
+}
+
+@media only screen and (max-width: 574px) {
+	#Beef {
+		margin-top: 10px;
+	}
+}
+
+@media only screen and (max-width:767px) {
+	#Sushi {
+		margin-top: 10px;
+	}
+}
+/* Could not get visible-xs-block Bootstrap class to work.  Hints? */
+
+
