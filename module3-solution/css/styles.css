@@ -27,17 +27,18 @@ button {
 	text-decoration: underline;
 }
 
+
+h3 {
+	padding-top: 7%;
+	text-decoration: underline;
 }
+
 .menuItem {
 	background-color: #9eedd5;
 	border-radius: 10px;
 	border: 1px black solid;
 }
 
-h3 {
-	padding-top: 7%;
-	text-decoration: underline;
-}
 
 @media only screen and (min-width: 575px) {
 	button {
