@@ -7,9 +7,9 @@
     var firstLetter = name.charAt(0);
     
     if (firstLetter.toLowerCase() == "j") {
-      console.log(byeSpeaker.speak(name));
-    } else {
-        console.log(helloSpeaker.speak(name));
+      byeSpeaker.speak(name);
+    }else {
+        helloSpeaker.speak(name);
       }
   }
 })(window);
